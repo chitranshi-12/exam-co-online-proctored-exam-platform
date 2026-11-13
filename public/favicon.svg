@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bookGrad" x1="8" y1="18" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#14B8A6" />
+    </linearGradient>
+    <linearGradient id="checkGrad" x1="20" y1="16" x2="42" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F97316" />
+      <stop offset="100%" stop-color="#FACC15" />
+    </linearGradient>
+  </defs>
+  <!-- Open Book -->
+  <path d="M32 28 C25 22, 14 22, 8 25 L8 50 C14 47, 25 47, 32 53 C39 47, 50 47, 56 50 L56 25 C50 22, 39 22, 32 28 Z" fill="url(#bookGrad)" />
+  <path d="M32 28 L32 53" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <!-- Rounded Checkmark above spine -->
+  <path d="M24 23 L29 28 L40 16" stroke="url(#checkGrad)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Small Graduation Cap top-right -->
+  <path d="M46 11 L55 7 L59 12 L50 16 Z" fill="#F97316"/>
+  <path d="M49 15.5 L49 20 C49 21.5 53 21.5 53 20 L53 13.8" stroke="#F97316" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="56" cy="14" r="1" fill="#FACC15" />
+</svg>

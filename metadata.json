@@ -1,0 +1,12 @@
+{
+  "name": "exam.co - Online Proctored Exam Platform",
+  "description": "Send a link. See every exam. A modern proctoring platform with real-time monitoring, silent violation detection, and live evidence capture.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "display-capture"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
